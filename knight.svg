@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff8e8"/><stop offset=".45" stop-color="#d9c7a7"/><stop offset="1" stop-color="#9b7a49"/></linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ead29d"/><stop offset=".5" stop-color="#b78b45"/><stop offset="1" stop-color="#765323"/></linearGradient>
+<linearGradient id="darkMetal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3d3a35"/><stop offset=".5" stop-color="#171616"/><stop offset="1" stop-color="#080808"/></linearGradient>
+</defs>
+<g id="static-knight">
+<ellipse cx="256" cy="456" rx="154" ry="25" fill="#000" opacity=".25"/>
+<path d="M112 445 Q124 410 150 399 L178 385 L164 350 Q151 316 164 277 Q177 237 206 205 L185 167 Q176 148 190 126 Q207 101 237 91 L274 78 Q307 69 326 87 Q344 103 340 130 L328 151 Q360 165 373 194 Q387 225 369 254 Q355 276 328 287 L319 336 Q315 365 344 390 Q370 412 391 445 Z" fill="url(#metal)" stroke="#6f542d" stroke-width="7" stroke-linejoin="round"/>
+<path d="M209 117 Q232 91 270 84 L294 82 L277 112 L254 126 L238 160 Q221 151 209 132 Z" fill="#b28b50" opacity=".72"/>
+<path d="M184 168 Q211 184 239 178 Q267 171 283 149 L298 123 Q315 109 329 123 Q343 137 328 153 L304 177 Q287 200 283 230 Q280 260 298 289 L281 313 Q245 292 218 269 Q194 248 180 218 Q171 192 184 168 Z" fill="url(#darkMetal)" opacity=".78"/>
+<path d="M197 164 Q214 179 235 179 Q258 177 275 159" fill="none" stroke="#ead5aa" stroke-width="9" stroke-linecap="round"/>
+<path d="M204 214 Q229 235 260 235 Q292 235 316 214" fill="none" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+<path d="M171 346 Q216 364 273 357 Q319 351 321 330 L317 371 Q300 394 252 401 Q201 402 177 379 Z" fill="#171616" opacity=".82"/>
+<path d="M151 397 Q211 417 286 409 Q341 403 359 389 L393 445 L112 445 Z" fill="url(#gold)" opacity=".9"/>
+<path d="M126 445 H386 Q401 445 408 458 Q409 472 390 476 H120 Q101 472 104 458 Q108 446 126 445Z" fill="url(#darkMetal)" stroke="#806234" stroke-width="6"/>
+<path d="M151 449 H361" stroke="#e6ce9a" stroke-width="5" opacity=".7"/>
+<circle cx="307" cy="190" r="7" fill="#24180e"/>
+<path d="M305 191 L324 187" stroke="#e9d4a9" stroke-width="4" stroke-linecap="round"/>
+<path d="M178 131 Q158 154 151 187 Q146 214 160 237" fill="none" stroke="#f1dfbd" stroke-width="14" stroke-linecap="round" opacity=".8"/>
+<path d="M195 116 Q167 144 160 181" fill="none" stroke="#c6a46d" stroke-width="8" stroke-linecap="round"/>
+</g></svg>

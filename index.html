@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#11100f">
+<title>Animated Chess — V0.3</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+<header class="topbar">
+  <div><div class="eyebrow">ANIMATED CHESS</div><h1>Knight Animation Prototype</h1></div>
+  <button id="resetBtn" class="ghost-btn">New Game</button>
+</header>
+
+<section class="game-shell">
+  <div class="status-row">
+    <span id="status">White to move</span>
+    <span id="checkBadge" class="badge hidden">CHECK</span>
+  </div>
+  <div id="board" class="board" aria-label="Chess board"></div>
+  <div class="controls">
+    <button id="undoBtn">Undo</button>
+    <button id="flipBtn">Flip</button>
+  </div>
+  <p class="hint">Knight V0.3: awaken → reveal → leap → land → return to statue.</p>
+</section>
+
+<div id="promotionModal" class="modal hidden">
+  <div class="modal-card">
+    <div class="eyebrow">PROMOTION</div>
+    <h2>Choose a piece</h2>
+    <div class="promotion-grid">
+      <button data-piece="q">Queen</button>
+      <button data-piece="r">Rook</button>
+      <button data-piece="b">Bishop</button>
+      <button data-piece="n">Knight</button>
+    </div>
+  </div>
+</div>
+
+<div id="animationLayer" aria-hidden="true"></div>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

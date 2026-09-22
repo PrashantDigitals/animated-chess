@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500">
+<defs>
+ <linearGradient id="horseMetal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff7e5"/><stop offset=".42" stop-color="#d9c5a1"/><stop offset="1" stop-color="#8c6b3c"/></linearGradient>
+ <linearGradient id="horseGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f1dca8"/><stop offset=".55" stop-color="#b78945"/><stop offset="1" stop-color="#68491f"/></linearGradient>
+</defs>
+<g id="horse">
+ <ellipse id="shadow" cx="350" cy="444" rx="215" ry="19" fill="#000" opacity=".28"/>
+ <g id="body">
+  <path d="M180 270 Q170 198 225 140 Q270 94 342 105 Q406 114 442 166 Q467 202 451 257 Q433 300 386 315 L319 330 Q246 327 201 303 Z" fill="url(#horseMetal)" stroke="#654a28" stroke-width="8"/>
+  <path d="M194 228 Q240 246 285 235 Q331 224 365 198 L391 224 Q362 273 307 286 Q248 297 202 273Z" fill="#171616" stroke="#b78945" stroke-width="7"/>
+  <path d="M221 252 Q267 269 315 254" fill="none" stroke="#ead5a9" stroke-width="7" stroke-linecap="round"/>
+ </g>
+ <g id="neck"><path d="M244 249 Q212 206 215 151 Q218 92 258 53 Q287 26 324 34 Q351 40 350 67 L331 101 Q369 112 389 140 Q401 160 388 180 L351 185 Q337 171 319 163 L306 219 Z" fill="url(#horseMetal)" stroke="#654a28" stroke-width="8"/></g>
+ <g id="head">
+  <circle cx="335" cy="116" r="8" fill="#3a2411"/>
+  <path d="M334 116 L353 111" stroke="#f2d9a7" stroke-width="4" stroke-linecap="round"/>
+  <path d="M288 89 Q305 107 330 113 Q353 119 371 135" fill="none" stroke="#b78945" stroke-width="8" stroke-linecap="round"/>
+ </g>
+ <g id="mane"><path d="M244 151 Q213 120 235 74 Q252 43 283 28 Q261 66 274 96 Q259 112 260 151 Q251 183 269 215 L242 234 Q220 198 244 151Z" fill="#b88b4b" stroke="#704d24" stroke-width="5"/></g>
+ <g id="rear-leg-a" class="leg rear-a">
+  <path d="M205 286 Q233 291 238 320 L229 376 Q225 405 207 431 L185 431 Q176 417 184 397 L191 335 Q185 305 205 286Z" fill="url(#horseMetal)" stroke="#654a28" stroke-width="8"/>
+  <path d="M181 421 H212 Q222 430 212 444 H181 Q170 437 181 421Z" fill="#201c18" stroke="#9d7742" stroke-width="5"/>
+ </g>
+ <g id="rear-leg-b" class="leg rear-b">
+  <path d="M254 291 Q281 294 285 322 L281 382 Q280 410 263 431 L241 431 Q232 417 239 397 L243 334 Q237 305 254 291Z" fill="url(#horseMetal)" stroke="#654a28" stroke-width="8"/>
+  <path d="M239 421 H269 Q279 430 269 444 H239 Q228 437 239 421Z" fill="#201c18" stroke="#9d7742" stroke-width="5"/>
+ </g>
+ <g id="front-leg-a" class="leg front-a">
+  <path d="M378 288 Q407 291 414 318 L420 383 Q423 410 409 431 L388 431 Q377 417 383 394 L372 329 Q365 307 378 288Z" fill="url(#horseMetal)" stroke="#654a28" stroke-width="8"/>
+  <path d="M387 421 H418 Q428 430 418 444 H387 Q376 437 387 421Z" fill="#201c18" stroke="#9d7742" stroke-width="5"/>
+ </g>
+ <g id="front-leg-b" class="leg front-b">
+  <path d="M424 286 Q450 291 455 319 L467 381 Q472 409 457 431 L436 431 Q425 418 430 394 L416 329 Q410 306 424 286Z" fill="url(#horseMetal)" stroke="#654a28" stroke-width="8"/>
+  <path d="M436 421 H468 Q478 430 468 444 H436 Q425 437 436 421Z" fill="#201c18" stroke="#9d7742" stroke-width="5"/>
+ </g>
+ <g id="tail"><path d="M442 224 Q509 226 533 187 Q522 234 480 257 Q525 252 544 225 Q533 279 465 286Z" fill="#b88b4b" stroke="#704d24" stroke-width="6"/></g>
+</g></svg>
